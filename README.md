@@ -19,3 +19,7 @@ Using command line:
 ```
 gdown 1CaAySnHSTDarnT_PMD0J0eVHs1h1SfpR
 ```
+## References
+* https://huggingface.co/datasets/kuznetsoffandrey/sberquad
+* https://huggingface.co/KirrAno93/rubert-base-cased-finetuned-squad
+* https://huggingface.co/docs/transformers/en/tasks/question_answering
