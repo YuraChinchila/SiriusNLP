@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiriusNLP</title>
+    <style>
+        * {
+            font-size: 16px;
+        }
+
+        textarea {
+            width: 50%;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            background-color: #f8f8f8;
+            resize: none;
+        }
+
+        #context {
+            height: 100px;
+        }
+        
+        #question {
+            height: 60px;
+        }
+
+        button {
+            height: 30px;
+            width: 100px;
+            background-color: #008000;
+            border: none;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1></h1>
+        <form action="#" method="post" style="margin-top: 10%;">
+            <textarea id="context" name="context" placeholder="Введите контекст:">{{ context }}</textarea><br>
+            <textarea id="question" name="question" placeholder="Введите вопрос:">{{ question }}</textarea><br>
+            <button type="submit">Отправить</button>
+        </form>
+        <br><textarea id="answer" placeholder="Ответ:">{{ answer }}</textarea>
+    </center>
+</body>
+</html>
